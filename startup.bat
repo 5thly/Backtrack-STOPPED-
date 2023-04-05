@@ -1,5 +1,8 @@
 @echo off
 color 04
+
+powershell -Command Invoke-WebRequest "https://github.com/a-MrX/Backtrack/archive/refs/heads/main.zip" -OutFile main.zip
+powershell -Command Expand-Archive main.zip
 echo BBBBBB         AA
 echo BB    BB      AAAA
 echo BBB   BB     AAAAAA
