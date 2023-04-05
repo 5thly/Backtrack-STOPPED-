@@ -16,7 +16,7 @@ you can also help me to updating this terminal as how i want it to be.
 
 >Repoman/package manager
 
->Rolling Release
+>Point Release
 
 # How to install?
 
