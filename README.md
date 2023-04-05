@@ -1,4 +1,4 @@
-# Backtrack 1
+# Backtrack GEN1
 Open-source terminal project
 
 # My Goal
