@@ -1,6 +1,10 @@
 # Backtrack GEN1
 Open-source terminal project
 
+## New Updates GEN 1
+
+>Not yet..
+
 # My Goal
 My goal and aim is to create a pentest terminal using batch/powershell/python as the main language
 this version is still incomplete and have many error to be fix 
