@@ -3,7 +3,7 @@ Open-source terminal project
 
 ## New Updates R1
 
->Not yet..
+>Multi Color and Startup
 
 ## My Goal
 My goal and aim is to create a pentest terminal using batch/powershell/python as the main language
