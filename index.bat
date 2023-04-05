@@ -1,0 +1,20 @@
+@echo off
+rem // created by M.Are5th
+rem // Open-source program for penter
+rem // You can change the configuration in penter.conf
+setlocal enabledelayedexpansion
+
+rem // update utf-8 symbol support
+
+:first
+set ip_address_string="IPv4 Address"
+set "tele="
+title "Backtrack Beta Version Tele-terminal 1.0.1 for pentest"
+color 04
+set /p "tele=Backtrack@MRX:~ "
+option
+
+rem // testing/prototype command
+:reado
+for /f "delims=" %%a in (first.abt.txt) do echo %%a
+goto first
