@@ -1,7 +1,7 @@
-# Backtrack GEN1
+# Backtrack G1
 Open-source terminal project
 
-## New Updates GEN 1
+## New Updates G1
 
 >Not yet..
 
