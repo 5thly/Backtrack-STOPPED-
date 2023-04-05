@@ -7,7 +7,9 @@ Open-source terminal project
 
 ## My Goal
 My goal and aim is to create a pentest terminal using batch/powershell/python as the main language
-this version is still incomplete and have many error to be fix 
+
+this version is still ``incomplete`` and have many error to be fix 
+
 you can also help me to updating this terminal as how i want it to be.
 
 ## Next features
