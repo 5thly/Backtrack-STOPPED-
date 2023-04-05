@@ -9,7 +9,6 @@ you can also help me to updating this terminal as how i want it to be.
 #How to install?
 you can use Git Clone https://github.com/a-MrX/Backtrack on terminal
 or you can directly install from github.
-
 you also need to install chocolatey in your powershell
 and do : choco install nano -y
 
