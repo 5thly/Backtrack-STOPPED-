@@ -5,6 +5,8 @@ Open-source terminal project
 
 >Multi Color and Startup
 
+>New Commands : psh for excecuting the powershell commands
+
 ## My Goal
 My goal and aim is to create a pentest terminal using batch/powershell/python as the main language
 
