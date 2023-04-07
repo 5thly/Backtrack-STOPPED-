@@ -7,6 +7,8 @@ Open-source terminal project
 
 >New Commands : psh for excecuting the powershell commands
 
+>New Commands : ext for extracting the zip/rar files.
+
 ## My Goal
 My goal and aim is to create a pentest terminal using batch/powershell/python as the main language
 
