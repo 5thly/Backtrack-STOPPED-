@@ -9,7 +9,7 @@ rem // update utf-8 symbol support
 :first
 set ip_address_string="IPv4 Address"
 set "tele="
-title "Backtrack Beta Version Tele-terminal 1.0.1 for pentest"
+title "Backtrack Beta Version Tele-terminal 1.0.2 for pentest"
 set /p "tele=BackTrack@R1:~ "
 option
 
