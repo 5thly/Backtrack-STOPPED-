@@ -12,8 +12,3 @@ set "tele="
 title "Backtrack Beta Version Tele-terminal 1.0.2 for pentest"
 set /p "tele=BackTrack@R1:~ "
 option
-
-rem // testing/prototype command
-:reado
-for /f "delims=" %%a in (first.abt.txt) do echo %%a
-goto first
