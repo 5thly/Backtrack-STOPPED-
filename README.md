@@ -22,6 +22,8 @@ you can also help me to updating this terminal as how i want it to be.
 
 >Point Release
 
+>OpenPort
+
 # How to install?
 
 you can use 
