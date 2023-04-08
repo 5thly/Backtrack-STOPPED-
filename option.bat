@@ -10,4 +10,4 @@ if "%tele:~0,3%" == "psh" "command/psh"
 if "%tele:~0,3%" == "ext" "command/ext"
 if "%tele%" == "" call index.bat
 if not "%tele%" == "ip" "command/error"
-call first.bat
+call index.bat
