@@ -1,0 +1,81 @@
+@echo off
+:main
+Rem // CSL© ALL RIGHT RESERVED
+Rem // Created and Licensed by MRX
+set grop=%1
+
+if "%1" == "sl" goto ls
+if "%1" == "dir" goto chd
+if "%1" == "int" goto CLL
+if "%1" == "txt" goto display
+if "%1" == "out" goto proses-papar
+if "%1" == "#" goto :eof
+if "%1" == "stp" goto stop
+if "%1" == "ipt" goto st
+if "%1" == "cll" goto void
+if "%1" == "class" goto :%2
+if "%1" == "install" goto installation
+if "%1" == "plus" goto plusbat
+if "%1" == "plush" goto pluspsh
+if "%1" == "var" goto var
+if "%1" == "pi" goto pi
+goto :eof
+
+:ls
+dir /b %2
+goto :eof
+
+:chd
+cd %2
+goto :eof
+
+:CLL
+if "%2" == "ixt_%sert%" echo %arp%
+goto :eof
+
+:pi
+if "%2" == "/" goto divipi
+goto :eof
+:divipi
+for /f "delims=" %%a in ('powershell -Command %3/3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208381420617177669147303598253490428755468731159562863882353787593751957781857780532171226806613001927876611195909216420198') do echo %%a
+goto :eof
+
+:var
+set "%2=%3"
+goto :eof
+
+:stop
+pause >nul
+goto :eof
+
+:display
+set sert=%3
+set grp=%2
+set arp=%grp:"=%
+goto :eof
+
+:void
+call %2
+goto :eof
+
+:installation 
+powershell -command invoke-webrequest "%2" -outfile "%3"
+goto :eof
+
+:plusbat
+set /a "%2=%3"
+goto :eof
+
+:pluspsh
+for /f "delims=" %%a in ('powershell -command %3') do set "%2=%%a"
+goto :eof
+
+:st
+set /p "%2=%3"
+goto :eof
+
+:proses-papar
+set props=%2
+set propsing=%props:"=%
+for /f "delims=" %%a in ('%propsing%') do echo %%a
+goto :eof
